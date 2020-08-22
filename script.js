@@ -13,11 +13,14 @@ $(function () {
     document.getElementById("go-myanmar").href = "sp-myanmar.html";
     document.getElementById("go-indonesia").href = "sp-indonesia.html";
     document.getElementById("go-philippine").href = "sp-philippine.html";
-    document.getElementById("go-myanmar").href = "sp-myanmar.html";
-    document.getElementById("go-myanmar").href = "sp-myanmar.html";
-    document.getElementById("go-myanmar").href = "sp-myanmar.html";
-    document.getElementById("go-myanmar").href = "sp-myanmar.html";
-    document.getElementById("go-myanmar").href = "sp-myanmar.html";
-    document.getElementById("go-myanmar").href = "sp-myanmar.html";
+    document.getElementById("go-singapore").href = "sp-singapore.html";
+    document.getElementById("go-thailand").href = "sp-thailand.html";
+    document.getElementById("go-cambodia").href = "sp-cambodia.html";
+    document.getElementById("go-vietnam").href = "sp-vietnam.html";
+    document.getElementById("go-malaysia").href = "sp-malaysia.html";
+    document.getElementById("go-laos").href = "sp-laos.html";
+    document.getElementById("go-top").href = "index.html";
+    document.getElementById("go-foolproof").href = "sp-foolproof.html";
+    document.getElementById("go-help").href = "sp-help.html";
   }
 });

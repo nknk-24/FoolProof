@@ -32,7 +32,7 @@ a {
 }
 
 header {
-  width: 375px;
+  width: 100%;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,7 @@ header {
   padding: 0 6%;
 
   position: fixed;
-  z-index: 10;
+  z-index: 25;
   background-color: #eee3d0;
 }
 
@@ -158,7 +158,7 @@ header {
 }
 
 .main-visual {
-  width: 375px;
+  width: 100%;
   padding-top: 50px;
   overflow: hidden;
   /* display: flex; */
@@ -208,7 +208,7 @@ header {
 }
 
 .main-visual-image-wrap1 img {
-  width: 375px;
+  width: 100vw;
   height: auto;
   margin-bottom: 30px;
 }
@@ -277,7 +277,7 @@ header {
 }
 
 .menu-list {
-  width: 375px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -360,10 +360,10 @@ header {
 }
 
 .text-spot {
-  width: 375px;
+  width: 100%;
   text-align: center;
   font-size: 18px;
-  margin-top: 50px;
+  margin-top: 30px;
   /* margin-bottom: 10px; */
 }
 
@@ -429,7 +429,7 @@ header {
 .item {
   background-color: #c2836c;
   /* height: 660px; */
-  width: 375px;
+  width: 100%;
   margin-top: 30px;
   padding-bottom: 40px;
 }
@@ -495,9 +495,9 @@ header {
 .hotel-myanmar {
   position: relative;
   display: flex;
-  margin-top: 70px;
+  /* margin-top: 70px; */
   width: 100%;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .hotel-wrap {
@@ -506,16 +506,18 @@ header {
 
 .hotel-img-wrap {
   /* position: absolute; */
-  width: 30vw;
-  height: 25vw;
+  /* width: 345px; */
+  height: 345px;
+  margin-left: 62px;
 }
 
 .hotel-img-wrap img {
   /* position: absolute; */
   /* top: 50px;
     left: 10%; */
-  width: 100%;
-  height: 100%;
+  width: 98%;
+  height: 92%;
+  margin-top: -50px;
   object-fit: cover;
   /* height: 45vh; */
   z-index: 20;
@@ -523,10 +525,10 @@ header {
 
 .hotel-myanmar-box-white {
   position: absolute;
-  z-index: -5;
+  z-index: -15;
   width: 85vw;
-  height: 40vh;
-  top: 25px;
+  height: 350px;
+  top: 14px;
   right: 0;
   background-color: white;
 }
@@ -535,19 +537,20 @@ header {
   position: absolute;
   z-index: -10;
   width: 85vw;
-  height: 40vh;
-  top: 100px;
+  height: 350px;
+  top: 30px;
   left: 0;
   background-color: #c2836c;
 }
 
 .hotel-title-wrap {
-  margin-top: 70px;
+  margin-top: -20px;
+  margin-left: 10px;
 }
 
 .hotel-title-name {
   /* position: absolute; */
-  font-size: 25px;
+  font-size: 20px;
   /* top: 400px;
     left: 12%; */
   z-index: 40;
@@ -562,11 +565,13 @@ header {
 }
 
 .hotel-ex {
-  font-size: 15px;
+  font-size: 13px;
   /* top: 530px;
     left: 12%; */
   z-index: 40;
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 /* 困ったらページ */
@@ -783,6 +788,7 @@ header {
   left: 0;
   background-color: white;
   display: none;
+  padding-top: 200px;
 }
 
 .header-sp-nav-list {
@@ -828,13 +834,13 @@ header {
   }
 
   .main-visual-image-wrap1 {
-    width: 100%;
+    width: 100vw;
     float: none;
     margin: 0;
   }
 
   .main-visual-image-wrap1 img {
-    width: 375px;
+    width: 100vw;
     height: auto;
   }
 }

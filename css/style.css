@@ -556,7 +556,7 @@ header {
   border: solid 4px #c2836c;
   position: absolute;
   max-height: 550px;
-  bottom: 50px;
+  bottom: 90px;
   left: 10%;
   width: 35vw;
   padding: 10px 7%;
@@ -565,6 +565,7 @@ header {
 .help-title {
   background-color: #dabfa7;
   padding: 5px 20px;
+  margin-top: 10px;
   font-size: 40px;
   display: inline-block;
 }

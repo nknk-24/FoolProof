@@ -76,9 +76,16 @@ header {
   position: relative;
 }
 
-.map img {
+.map-img-wrap {
   width: 100%;
-  height: auto;
+  height: calc(100vh - 80px);
+}
+
+.map-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .country-list {
@@ -119,47 +126,47 @@ header {
 }
 
 .myanmar {
-  top: 24%;
-  left: 9%;
+  top: 25%;
+  left: 9.5%;
 }
 
 .indonesia {
-  top: 73%;
-  left: 47%;
+  top: 80%;
+  left: 55%;
 }
 
 .philippine {
-  top: 40%;
+  top: 50%;
   left: 65%;
 }
 
 .singapore {
-  top: 72%;
+  top: 78%;
   left: 26%;
 }
 
 .thailand {
-  top: 37%;
-  left: 19%;
+  top: 40%;
+  left: 22%;
 }
 
 .cambodia {
-  top: 44%;
-  left: 24%;
+  top: 48.5%;
+  left: 27.5%;
 }
 
 .vietnam {
-  top: 21%;
-  left: 31%;
+  top: 25%;
+  left: 30%;
 }
 
 .malaysia {
-  top: 63.5%;
-  left: 24.5%;
+  top: 70%;
+  left: 23%;
 }
 
 .laos {
-  top: 29%;
+  top: 31%;
   left: 24.5%;
 }
 
@@ -637,7 +644,7 @@ header {
 .foolproof-title {
   position: absolute;
   z-index: 20;
-  margin-top: 7%;
+  margin-top: 9%;
   margin-left: 10%;
   font-size: 4.3vh;
 }
@@ -653,7 +660,7 @@ header {
 .foolproof-ex {
   position: absolute;
   z-index: 30;
-  bottom: 11%;
+  bottom: 15%;
   left: 57%;
 }
 
